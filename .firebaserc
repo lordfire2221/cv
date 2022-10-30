@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "portofiolio"
+  },
+  "targets": {
+    "portofiolio": {
+      "hosting": {
+        "dist": [
+          "portofiolio"
+        ],
+        "portofiolio": [
+          "dist"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

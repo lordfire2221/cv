@@ -45,7 +45,7 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     RouterLinkActive,
     HttpClientModule,
     ReactiveFormsModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireAnalyticsModule,
     AngularFirestoreModule,
     AngularFireAuthModule,
