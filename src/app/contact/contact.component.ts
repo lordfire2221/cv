@@ -21,7 +21,7 @@ public ajouterMessage!:FormGroup;
       this.ajouterMessage = fb.group({
         nom:['',[Validators.required]],
         email:['',[Validators.required,Validators.email]],
-        phone:['',[Validators.required]],
+        subject:['',[Validators.required]],
         messages:['',[Validators.required]],
       })
     }

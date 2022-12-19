@@ -5,11 +5,8 @@
   "targets": {
     "portofiolio": {
       "hosting": {
-        "dist": [
-          "portofiolio"
-        ],
         "portofiolio": [
-          "dist"
+          "cvtchibozo"
         ]
       }
     }

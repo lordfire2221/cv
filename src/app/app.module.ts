@@ -24,6 +24,11 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ServicesComponent } from './services/services.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EdicationComponent } from './edication/edication.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,12 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     FooterComponent,
     ContactComponent,
     CopyrightComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    SidebarComponent,
+    ServicesComponent,
+    ExperienceComponent,
+    EdicationComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,

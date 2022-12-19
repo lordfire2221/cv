@@ -1,70 +1,80 @@
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <!-- Contact Section-->    
+        <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
             <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacter moi</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" [formGroup]="ajouterMessage" (ngSubmit) = "onSubmit()" >
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" formControlName="nom" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" formControlName="nom" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" formControlName="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" formControlName="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" formControlName="messages" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://nomads-developper.web.app/#contact">https://nomads-developper.web.app/#contact</a>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="contact-mf">
+                    <div id="contact" class="box-shadow-full">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="title-box-2">
+                            <h5 class="title-left">
+                              Send Message Us
+                            </h5>
+                          </div>
+                          <div>
+                            <form id="contactForm" [formGroup]="ajouterMessage" (ngSubmit) = "onSubmit()">
+                              <div class="row">
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="text" formControlName="nom" class="form-control" id="name" placeholder="Your Name" required>
+                                  </div>
                                 </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary" id="submitButton" type="submit">Send</button>
-                        </form>
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="email" class="form-control" formControlName="email" id="email" placeholder="Your Email" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" formControlName="subject" id="subject" placeholder="Subject" required>
+                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <textarea class="form-control" formControlName="messages" rows="5" placeholder="Message" required></textarea>
+                                  </div>
+                                </div>
+                                <div class="col-md-12 text-center my-3">
+                                  <div class="loading">Loading</div>
+                                  <div class="error-message"></div>
+                                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                  <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="title-box-2 pt-4 pt-md-0">
+                            <h5 class="title-left">
+                              Get in Touch
+                            </h5>
+                          </div>
+                          <div class="more-info">
+                            <p class="lead">
+                             
+                            </p>
+                            <ul class="list-ico">
+                              <li><span class="bi bi-geo-alt"></span> Bénin ,Cotonou
+                                Gbédjromede avant le collége référence.</li>
+                              <li><span class="bi bi-phone"></span> (+229)54618739</li>
+                              <li><span class="bi bi-envelope"></span>tchibozojeaneude@gmail.com</li>
+                            </ul>
+                          </div>
+                          <div class="socials">
+                            <ul>                              
+                              <li><a href="https://www.linkedin.com/in/jean-eudes-tchibozo-479426200/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
+          </section><!-- End Contact Section -->
