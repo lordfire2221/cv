@@ -30,13 +30,13 @@ public ajouterMessage!:FormGroup;
       .then(
         (res: any) => {
           if (res){
-            alert('message envyé avec succès .');
-            this.router.navigate(['home'])
+            alert('message envoyer avec succès .');
+            location.reload()
 
           }
           else
           alert("problème survenue dans l'envoie du message .");
-          this.router.navigate(['home']);
+          location.reload();
         }
       )
     }

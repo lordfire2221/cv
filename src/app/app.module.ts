@@ -29,6 +29,13 @@ import { ServicesComponent } from './services/services.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EdicationComponent } from './edication/edication.component';
 import { EducationComponent } from './education/education.component';
+import { HeroComponent } from './hero/hero.component';
+import { SkillsComponent } from './skills/skills.component';
+import { About1Component } from './about1/about1.component';
+import { Resume1Component } from './resume1/resume1.component';
+import { Service1Component } from './service1/service1.component';
+import { ResumeComponent } from './resume/resume.component';
+import { Contact1Component } from './contact1/contact1.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +54,13 @@ import { EducationComponent } from './education/education.component';
     ExperienceComponent,
     EdicationComponent,
     EducationComponent,
+    HeroComponent,
+    SkillsComponent,
+    About1Component,
+    Resume1Component,
+    Service1Component,
+    ResumeComponent,
+    Contact1Component,
   ],
   imports: [
     BrowserModule,

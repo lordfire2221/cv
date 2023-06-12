@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./assets/vendor/bootstrap/css/bootstrap.min.css",
+              "./assets/vendor/bootstrap/bootstrap/bootstrap-icons.css",
+              "./assets/vendor/aos/aos.css",
+              "./assets/vendor/bootstrap/css/bootstrap.min.css",
+              "./assets/vendor/glightbox/css/glightbox.min.css",
+              "./assets/vendor/swiper/swiper-bundle.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./assets/js/main.js",
+            "./assets/vendor/bootstrap/js/bootstrap.min.js",
+            "./assets/vendor/bootstrap/typed.module.js"
+            ]
           },
           "configurations": {
             "production": {
