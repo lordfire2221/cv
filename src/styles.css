@@ -10,6 +10,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('./assets/vendor/bootstrap/css/bootstrap.min.css');
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;

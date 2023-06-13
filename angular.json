@@ -34,7 +34,8 @@
             "scripts": [
               "./assets/js/main.js",
             "./assets/vendor/bootstrap/js/bootstrap.min.js",
-            "./assets/vendor/bootstrap/typed.module.js"
+            "./assets/vendor/bootstrap/typed.module.js",
+            "./assets/vendor/aos/aos.js"
             ]
           },
           "configurations": {
