@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyCZ2a1YSnaGVhcRVLTx2oUEAOAzec0MA2c",
-    authDomain: "portofiolio.firebaseapp.com",
-    projectId: "portofiolio",
-    storageBucket: "portofiolio.appspot.com",
-    messagingSenderId: "257068995635",
-    appId: "1:257068995635:web:5c9f6feb3079665ecf3f46",
-    measurementId: "G-R01C93HH2S"
+    apiKey: "AIzaSyAt95MZHTeYMyvSe-qpXForv6o9EiToxag",
+    authDomain: "tchibozo-jean-eudes.firebaseapp.com",
+    projectId: "tchibozo-jean-eudes",
+    storageBucket: "tchibozo-jean-eudes.appspot.com",
+    messagingSenderId: "289176607851",
+    appId: "1:289176607851:web:9170a50c5828974f24652e",
+    measurementId: "G-L2GBEX77VX"
   }
 };
 

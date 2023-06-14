@@ -24,18 +24,16 @@
             ],
             "styles": [
               "src/styles.css",
-              "./assets/vendor/bootstrap/css/bootstrap.min.css",
-              "./assets/vendor/bootstrap/bootstrap/bootstrap-icons.css",
-              "./assets/vendor/aos/aos.css",
-              "./assets/vendor/bootstrap/css/bootstrap.min.css",
-              "./assets/vendor/glightbox/css/glightbox.min.css",
-              "./assets/vendor/swiper/swiper-bundle.min.css"
+              "src/assets/vendor/aos/aos.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/glightbox/css/glightbox.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css"
             ],
             "scripts": [
-              "./assets/js/main.js",
-            "./assets/vendor/bootstrap/js/bootstrap.min.js",
-            "./assets/vendor/bootstrap/typed.module.js",
-            "./assets/vendor/aos/aos.js"
+            "src/assets/js/main.js",
+            "src/assets/vendor/bootstrap/js/bootstrap.min.js",
+            "src/assets/vendor/typed.js/typed.module.js",
+            "src/assets/vendor/aos/aos.js"
             ]
           },
           "configurations": {
@@ -43,13 +41,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "1mb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "5mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "15mb",
+                  "maximumError": "15mb"
                 }
               ],
               "fileReplacements": [

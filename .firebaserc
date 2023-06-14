@@ -1,15 +1,5 @@
 {
   "projects": {
-    "default": "portofiolio"
-  },
-  "targets": {
-    "portofiolio": {
-      "hosting": {
-        "portofiolio": [
-          "cvtchibozo"
-        ]
-      }
-    }
-  },
-  "etags": {}
+    "default": "tchibozo-jean-eudes"
+  }
 }
